@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Decodificador</title>
+</head>
+
+<body>
+
+    <h1>Decodificador de Texto </h1>
+
+    <textarea id="texto"  pattern="^[a-z\s]+$" placeholder="     Digite o seu texto"></textarea>
+
+    
+    <img class="atencao" src="./Assets/atencao.png">
+    
+<p id="condicao">Apenas letras minúsculas e sem acento.</p>
+
+
+<button id="btn1" onclick="criptografar()">Criptografar</button>
+
+
+<button id="btn2" onclick="descriptografar()">Descriptografar</button>
+
+
+
+<div class="container">
+
+    <textarea id="caixadetexto" rows="20" cols="60">
+    
+    </textarea> 
+
+    <button class="copiar" onclick="copiar()">Copiar</button>
+
+    <img src="./Assets/Imagem1.png" alt="">
+
+    <p>Digite o texto que você deseja criptografar ou descriptografar.</p>
+
+</div>
+
+
+<footer>
+    Luma Gonçalves
+    2024
+</footer>
+
+</body>
+<script src="./script.js"></script>
+</html>

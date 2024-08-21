@@ -1,0 +1,184 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Inter;
+position: absolute;
+background-color: #F3F5FC;
+}
+
+
+h2 {
+color: #0A3871;
+margin: 40px 50px 40px 40px;
+width: 700px;
+margin-left: 250px;
+
+}
+
+h1 {
+color: #0A3871;
+margin: 40px 20px 40px 40px;
+width: 500px;
+height: 60px;
+top: 40px;
+margin-left: 250px;
+gap: 40px;
+opacity: 0px;
+
+}
+
+#texto {
+background:none;
+font-size: 32px;
+font-weight: 400;
+text-align: left;
+color: #0A3871;
+margin: 10px;
+width: 680px;
+height: 48px;
+top: 168px;
+left: 240px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+line-height: 48px;
+outline: none;
+border: none;
+}
+
+#texto::placeholder {
+
+color: #0A3871;
+}
+#alert{
+    background: none;
+    top: 230px;
+    left: 250px;
+    width: 400px;
+    color: red;
+}
+
+#btn1{
+background-color: #0A3871;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 10px;
+margin-top: 5px;
+margin-left: 5px;
+padding: 10px 10px 10px 10px;
+width: 200px;
+font-size: large;
+width: Fixed (680px)px;
+height: Hug (67px)px;
+top: 600px;
+left: 240px;
+gap: 24px;
+opacity: 0px;
+border-radius: 10px;
+border-color:#0A3871;
+
+}
+
+#btn2{
+background-color: #c0c4cc;
+color: #0A3871;
+cursor: pointer;
+border-radius: 10px;
+border-color:#0A3871;
+border-style:groove;
+margin-top: 5px;
+padding: 10px 10px 10px 10px;
+width: 200px;
+font-size: large;
+width: Fixed (700px)px;
+height: Hug (200px)px;
+top: 600px;
+left: 460px;
+gap: 24px;
+opacity: 0px;
+
+}
+
+
+.atencao {
+top: 580px ;
+width: 15px;
+height: 15px;
+left: 245px;
+}
+
+#condicao {
+width: 400px;
+height: Hug (18px)px;
+top: 580px;
+left: 260px;
+gap: 8px;
+opacity: 0.6;
+
+}
+
+.container {
+background-color: #ffffff;
+width: 360px;
+height: 650px;
+top: 40px;
+left: 950px;
+gap: 0px;
+border-radius: 32px;
+opacity: 0px;
+
+}
+
+img {
+top: 180px;
+background-color: #ffffff;
+}
+
+p {
+width: Hug (336px)px;
+height: Hug (122px)px;
+top: 500px;
+left: 40px;
+gap: 16px;
+background-color: #ffffff;
+}
+
+textarea {
+background-color: #ffffff;
+margin-left: 10px;
+margin-top: 20px;
+margin-right: 50px;
+width: 340px;
+height: 150px;
+outline: none;
+border: none;
+font-size: 25px;
+font-weight: 200;
+
+}
+
+.copiar {
+    top: 550px;
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    border-radius: 5px;
+    border-radius: 10px;
+    border-color:#0A3871;
+    border-style:groove;
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+footer {
+
+    margin-top: 680px;
+    margin-left: 380px;
+    width: 300px;
+    height: 100px;
+    font-size: 5ox;
+}
+
